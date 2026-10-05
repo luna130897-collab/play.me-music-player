@@ -1,0 +1,6 @@
+{
+  "appId": "com.lofi.musicplayer",
+  "appName": "Lofi Music Player",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

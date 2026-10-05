@@ -40,6 +40,7 @@ jobs:
 
       - name: Build Android Debug APK
         run: |
+          echo "dependencies { implementation platform('org.jetbrains.kotlin:kotlin-bom:1.8.22') }" >> android/app/build.gradle
           cd android
           chmod +x ./gradlew
           ./gradlew assembleDebug --no-daemon
